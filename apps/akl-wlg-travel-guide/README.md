@@ -1,6 +1,6 @@
 # Demonstration App: Auckland → Wellington Travel Guide
 
-This demonstration app was created using the following prompt with Claude, using `Sonnet 4.6`:
+This demonstration app was created by issuing the following prompt to Anthropic's Claude AI, using the `Sonnet 4.6` model:
 
 >Can you generate an app that displays a summary of the different ways to travel between Auckland, New Zealand and Wellington, New Zealand? I would like there to be commentary on travel cost, travel time (including time spent waiting), and environmental impact. Finally, provide recommendations and why I might consider one recommendation over another.
 >

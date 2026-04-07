@@ -1,6 +1,6 @@
 # Demonstration App: Wellington Weather Explorer
 
-This demonstration app was created using the following prompt with Claude, using `Sonnet 4.6`:
+This demonstration app was created by issuing the following prompt to Anthropic's Claude AI, using the `Sonnet 4.6` model:
 
 >Can you generate an app that displays data about weather in Wellington Central, Wellington, New Zealand over the time period of April 2025 to March 2026. Cover the following:
 >1. Min, max and average rainfall.
