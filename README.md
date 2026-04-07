@@ -101,10 +101,10 @@ Use this prompt with Claude:
 >
 >```
 >{
->  "name": "Name of the app",
+>  "name": "Name of the app.",
 >  "description": "A short description of the app, adding a note that commentary has been made by AI.",
 >  "icon": "An icon for the app.",
->  "category": "A category tag for the app",
+>  "category": "A category tag for the app.",
 >  "updated": "When the statistics behind the app were last updated."
 >}
 >```
