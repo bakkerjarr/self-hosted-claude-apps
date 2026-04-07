@@ -35,13 +35,17 @@ Each app lives in its own directory under `apps/` and contains these files:
 
 When you push changes to the main branch:
 
-1. GitHub Actions scans the `apps/` directory for apps (any folder with a `package.json`).
+1. GitHub Actions scans the `apps/` directory for apps (any directory with a `package.json`).
 1. For each app, it runs `npm install` to install dependencies, then `npm run build` to create the final HTML/CSS/JS files.
 1. All built apps are collected into a `_site` directory.
 1. A `registry.json` file is generated from each app's `app.config.json`.
 1. Everything is deployed to GitHub Pages.
 
 The landing page reads `registry.json` to display tiles linking to each app.
+
+### Demonstration Apps
+
+Please see the `demo` branch of the https://github.com/bakkerjarr/self-hosted-claude-apps repository for examples of apps. Each app directory includes a `README.md` file containing the prompt that was issued to Claude to generate the app.
 
 ## Deploying This Repository to GitHub
 
@@ -50,13 +54,13 @@ The landing page reads `registry.json` to display tiles linking to each app.
 There are two methods:
 
 **Option A: Fork the repository**
-1. Go to https://github.com/bakkerjarr/jsx-pages (replace with the actual repository URL).
+1. Go to https://github.com/bakkerjarr/self-hosted-claude-apps.
 1. Click the "Fork" button in the top right.
 1. This creates a copy in your GitHub account.
 
 **Option B: Create from scratch**
 1. Create a new repository on GitHub.
-1. Clone this repository to your computer: `git clone https://github.com/bakkerjarr/jsx-pages.git` OR `git clone git@github.com:bakkerjarr/jsx-pages.git`
+1. Clone this repository to your computer: `git clone https://github.com/bakkerjarr/self-hosted-claude-apps.git` OR `git clone git@github.com:bakkerjarr/self-hosted-claude-apps.git`
 1. Change the remote to point to your new repository: `git remote set-url origin https://github.com/your-username/your-repo.git`
 1. Push to your repository: `git push -u origin main`
 
